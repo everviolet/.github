@@ -14,6 +14,7 @@ We bring Evergarden to as many places as possible—editors, terminals, tui appl
 Want to help out? Awesome! There are plenty of ways to get involved:
 
 - :books: Check out our [ports](https://github.com/everviolet/ports)!
+- :left_speech_bubble: Start a [discussion](https://github.com/orgs/everviolet/discussions/new).
 - :hammer_and_wrench: Contribute: Contribution Guide (coming soon!)
 
 ### License
