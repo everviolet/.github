@@ -1,3 +1,8 @@
+<h3 align="center">
+	<img src="https://github.com/everviolet/.github/raw/main/assets/logo-circle.png" width="100" alt="Logo"/><br/>
+	Everviolet
+</h3>
+
 Hey there! Welcome to Everviolet, the home of the [Evergarden colorscheme][evergarden] and all the cool things that come with it. :seedling:
 
 Everviolet is all about keeping Evergarden alive and spreading its cozy vibes across different apps, editors, and tools. We’re here to make sure you get a beautiful, consistent experience everywhere. ✨
