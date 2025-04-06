@@ -22,6 +22,12 @@ Want to help out? Awesome! There are plenty of ways to get involved:
 - :left_speech_bubble: Start a [discussion](https://github.com/orgs/everviolet/discussions/new).
 - :hammer_and_wrench: Contribute: Contribution Guide (coming soon!)
 
+### Where to find us
+
+We have an official discord for the everviolet discord. Be sure to join in to share your experiences or help develop the org!
+
+- 🏡 [Discord](https://robinroses.xyz/redirect/discord) 
+
 ### License
 
 Evergarden and all related projects are open-source under the GPLv3 License, so feel free to use, share, and contribute!
