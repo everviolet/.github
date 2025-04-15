@@ -10,6 +10,15 @@ Everviolet is all about keeping Evergarden alive and spreading its cozy vibes ac
 Evergarden is a colorscheme inspired by lush forests, enchanted groves, and the calm of nature.
 It’s designed to be easy on the eyes, elegant, and just plain nice to look at—whether you’re coding, writing, or just staring at your terminal for fun (we won’t judge).
 
+<p align="center">
+  <a href="https://github.com/everviolet">
+    <img src="https://github.com/everviolet/.github/raw/main/assets/socials/github.svg" width="64" height="64" alt="github logo"/>
+  </a>
+  <a href="https://robinroses.xyz/redirect/discord">
+    <img src="https://github.com/everviolet/.github/raw/main/assets/socials/discord.svg" width="64" height="64" alt="discord logo"/>
+  </a>
+</p>
+
 ### What We Do
 
 We bring Evergarden to as many places as possible—editors, terminals, tui applications, and beyond!
