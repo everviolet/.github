@@ -1,0 +1,2 @@
+logo-circle:
+  magick logo.png -gravity center \( -size 256x256 xc:black -fill white -draw "circle 128 128 128 0" -alpha copy \) -compose copyopacity -composite logo-circle.png

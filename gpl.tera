@@ -1,0 +1,32 @@
+---
+whiskers:
+  version: ^2.0.0
+  matrix:
+    - flavor
+  filename: "palette/evergarden-{{flavor.identifier}}.gpl"
+---
+GIMP Palette
+Channels: RGB
+#
+0 0 0>transparent
+{{red.rgb.r}} {{red.rgb.g}} {{red.rgb.b}}>red
+{{orange.rgb.r}} {{orange.rgb.g}} {{orange.rgb.b}}>orange
+{{yellow.rgb.r}} {{yellow.rgb.g}} {{yellow.rgb.b}}>yellow
+{{green.rgb.r}} {{green.rgb.g}} {{green.rgb.b}}>green
+{{aqua.rgb.r}} {{aqua.rgb.g}} {{aqua.rgb.b}}>aqua
+{{skye.rgb.r}} {{skye.rgb.g}} {{skye.rgb.b}}>skye
+{{blue.rgb.r}} {{blue.rgb.g}} {{blue.rgb.b}}>blue
+{{purple.rgb.r}} {{purple.rgb.g}} {{purple.rgb.b}}>purple
+{{pink.rgb.r}} {{pink.rgb.g}} {{pink.rgb.b}}>pink
+{{text.rgb.r}} {{text.rgb.g}} {{text.rgb.b}}>text
+{{subtext1.rgb.r}} {{subtext1.rgb.g}} {{subtext1.rgb.b}}>subtext1
+{{subtext0.rgb.r}} {{subtext0.rgb.g}} {{subtext0.rgb.b}}>subtext0
+{{overlay2.rgb.r}} {{overlay2.rgb.g}} {{overlay2.rgb.b}}>overlay2
+{{overlay1.rgb.r}} {{overlay1.rgb.g}} {{overlay1.rgb.b}}>overlay1
+{{overlay0.rgb.r}} {{overlay0.rgb.g}} {{overlay0.rgb.b}}>overlay0
+{{surface2.rgb.r}} {{surface2.rgb.g}} {{surface2.rgb.b}}>surface2
+{{surface1.rgb.r}} {{surface1.rgb.g}} {{surface1.rgb.b}}>surface1
+{{surface0.rgb.r}} {{surface0.rgb.g}} {{surface0.rgb.b}}>surface0
+{{base.rgb.r}} {{base.rgb.g}} {{base.rgb.b}}>base
+{{mantle.rgb.r}} {{mantle.rgb.g}} {{mantle.rgb.b}}>mantle
+{{crust.rgb.r}} {{crust.rgb.g}} {{crust.rgb.b}}>crust
