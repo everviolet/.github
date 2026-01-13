@@ -39,20 +39,20 @@ api() {
 	local uri="$2"
 	local pat="$3"
 	local dat="$4"
-  local res
-  local msg
+	local res
+	local msg
 
 	res="$(curl -sX "$req" \
 		"$API/$uri" \
 		-H 'Accept: application/json' \
 		-H 'Content-Type: application/json' \
-    -H "Authorization: token $TOKEN" \
-    -d "$dat")"
+		-H "Authorization: token $TOKEN" \
+		-d "$dat")"
 
-  msg="$(echo "$res" | jq -sc '.message' 2>/dev/null || echo 'null')"
-  if [[ "$msg" != 'null' ]]; then
-    echo "${PREFIX}error: $msg"
-  fi
+	msg="$(echo "$res" | jq -sc '.message' 2>/dev/null || echo 'null')"
+	if [[ "$msg" != 'null' ]]; then
+		echo "${PREFIX}error: $msg"
+	fi
 
 	echo "$res" | jq -rc "$pat"
 }

@@ -46,7 +46,7 @@ set_rules() {
 
 ensure_rules() {
 	local repo="$1"
-  local rules
+	local rules
 
 	echo " - $repo"
 
@@ -64,10 +64,10 @@ if [[ -n "$1" ]]; then
 	ensure_rules "$1"
 else
 	readarray REPOS < <(api 'GET' "orgs/$ORG/repos" '.[].name')
-	echo "repos fetched. checking"
+	echo 'repos fetched. checking'
 
 	for repo in "${REPOS[@]}"; do
-		repo=$(echo "$repo" | tr -d '\n')
+		repo="$(echo "$repo" | tr -d '\n')"
 		ensure_rules "$repo"
 	done
 fi
