@@ -9,7 +9,7 @@ evergarden is all about keeping Evergarden alive and spreading its cozy vibes ac
 
 Evergarden is a colorscheme inspired by lush forests, enchanted groves, and the calm of nature.
 It was also inspired by the lively art of The Legend of Zelda: The Minish Cap.
-It’s designed to be easy on the eyes, elegant, and just plain nice to look at—whether you’re coding, writing, or just staring at your terminal for fun (we won’t judge).
+It’s designed to be easy on the eyes, elegant, and just plain nice to look at - whether you’re coding, writing, or just staring at your terminal for fun (we won’t judge).
 
 <p align="center">
   <a href="https://codeberg.org/evergarden">
@@ -22,7 +22,7 @@ It’s designed to be easy on the eyes, elegant, and just plain nice to look at�
 
 ### What We Do
 
-We bring Evergarden to as many places as possible—editors, terminals, tui applications, and beyond!
+We bring Evergarden to as many places as possible - editors, terminals, tui applications, and beyond!
 
 ### How to Join In
 
