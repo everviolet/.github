@@ -28,8 +28,8 @@ We bring Evergarden to as many places as possible—editors, terminals, tui appl
 
 Want to help out? Awesome! There are plenty of ways to get involved:
 
-- :books: Check out our [ports](https://everviolet.xyz/ports)!
-- :left_speech_bubble: Start a [discussion](discord).
+- :books: Check out our [ports](https://evergarden.moe/ports)!
+- :left_speech_bubble: Start a [discussion][discord].
 - :hammer_and_wrench: Contribute: Contribution Guide (coming soon!)
 
 ### Where to find us
@@ -42,5 +42,5 @@ We have an official discord for the evergarden discord. Be sure to join in to sh
 
 Evergarden and all related projects are open-source under the EUPL-1.2 License, so feel free to use, share, and contribute!
 
-[evergarden]: https://evergarden.org/evergarden/nvim
+[evergarden]: https://codeberg.org/evergarden/nvim
 [discord]: https://robinwobin.dev/redirect/discord
