@@ -52,7 +52,7 @@ else
 	echo 'ok then'
 
 	for repo in "${REPOS[@]}"; do
-		repo="$(echo "$repo" | tr -d '\n')"
+		repo="${repo%\n}"
 		ensure_settings "$repo"
 	done
 fi

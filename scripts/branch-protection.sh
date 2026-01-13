@@ -67,7 +67,7 @@ else
 	echo 'repos fetched. checking'
 
 	for repo in "${REPOS[@]}"; do
-		repo="$(echo "$repo" | tr -d '\n')"
+		repo="${repo%\n}"
 		ensure_rules "$repo"
 	done
 fi

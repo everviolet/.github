@@ -14,7 +14,7 @@ confirm() {
 
 	local confirm
 	read -r confirm
-	[[ "$(echo "$confirm" | tr '[:upper:]' '[:lower:]')" = 'y' ]]
+	[[ "${confirm,,}" = 'y' ]]
 }
 
 token_error() {
