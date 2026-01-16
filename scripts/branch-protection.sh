@@ -15,7 +15,8 @@ RULES='{
 	"rule_name": "main",
 	"branch_name": "main",
 	"enable_push": true,
-	"enable_push_whitelist": false,
+	"enable_push_whitelist": true,
+	"push_whitelist_teams": ["Owners", "coolteam"],
 	"push_whitelist_deploy_keys": false,
 	"enable_merge_whitelist": false,
 	"enable_status_check": true,
@@ -67,7 +68,7 @@ else
 	echo 'repos fetched. checking'
 
 	for repo in "${REPOS[@]}"; do
-		repo="${repo%\n}"
+		repo="${repo%$'\n'}"
 		ensure_rules "$repo"
 	done
 fi
