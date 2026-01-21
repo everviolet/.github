@@ -56,3 +56,5 @@ else
 		ensure_settings "$repo"
 	done
 fi
+
+echo 'done :3'
