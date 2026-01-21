@@ -28,7 +28,7 @@ We bring Evergarden to as many places as possible - editors, terminals, tui appl
 
 Want to help out? Awesome! There are plenty of ways to get involved:
 
-- :books: Check out our [ports](https://evergarden.moe/ports)!
+- :books: Check out all ports on our [website](https://evergarden.moe)!
 - :left_speech_bubble: Start a [discussion][discord].
 - :hammer_and_wrench: Contribute: Contribution Guide (coming soon!)
 
