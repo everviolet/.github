@@ -23,7 +23,7 @@ token_error() {
 	echo "$CODEBERG/user/settings/applications"
 	echo
 
-	if [[ -f "$HOME/.local/share/berg-cli/TOKEN" ]]; then
+	if [[ -f "${XDG_DATA_HOME:-"$HOME/.local/share"}/berg-cli/codeberg.org/TOKEN" ]]; then
 		confirm 'berg token found. use that one?' &&
 			TOKEN="$(<"$HOME/.local/share/berg-cli/TOKEN")" ||
 			exit 1
