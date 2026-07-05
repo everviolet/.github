@@ -30,7 +30,7 @@ Want to help out? Awesome! There are plenty of ways to get involved:
 
 - :books: Check out all ports on our [website](https://evergarden.moe)!
 - :left_speech_bubble: Start a [discussion][discord].
-- :hammer_and_wrench: Contribute: Contribution Guide (coming soon!)
+- :hammer_and_wrench: Contribute: [Contribution Guide](https://codeberg.org/evergarden/.profile/src/branch/main/CONTRIBUTING.md)
 
 ### Where to find us
 
