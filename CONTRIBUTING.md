@@ -9,17 +9,18 @@ you open anything.
 
 ## open an issue before you open a pr
 
-**Please open an issue before writing any code.** Even if you already have a fix or feature in mind, start a discussion first.
+**Please open an issue before writing any code.** Even if you already have a
+fix or feature in mind, start a discussion first.
 
 Why we work this way:
 
 - It lets us talk through the _problem_ before committing to a specific
   _solution_, which usually leads to a better and simpler outcome.
 - It saves you time. A PR that doesn't fit the project's direction is a lot
-  more painful to write (and to hear "no" about) than a quick comment on an
-  issue.
+  more difficult to write than a quick comment on an issue.
 - It keeps review and merge overhead low for maintainers, which means we can
-  actually keep up with contributions instead of drowning in half-finished PRs.
+  actually keep up with contributions instead of drowning in half-finished
+  pull-requests.
 - In many cases, a maintainer will simply pick up the issue and write the fix
   themselves. That's a good outcome! The goal is a healthy project, not a
   personal commit count.
@@ -41,14 +42,14 @@ upon. This is to keep the codebase consistent and maintainable, and to keep
 maintainer time sustainable.
 
 If, after discussion on an issue, a maintainer asks you to open a PR (or
-explicitly greenlights one), then go for it. Unsolicited PRs - and especially large
-ones, or ones opened without a prior issue - are _likely to be closed with a
-comment or left to become stale_, even if the code itself is fine.
+explicitly greenlights one), then go for it. Unsolicited pull-requests - and
+especially large ones, or ones opened without a prior issue - are _likely to be
+closed with a comment or become stale_.
 
 Small, obvious fixes (typos, broken links, clearly-correct one-liners) are _the
-perfect example_ of prs that should just be left to maintainers. Maintainers can
+perfect example_ of pull-requests that should just be left to maintainers. Maintainers can
 choose to fix multiple of these issues together in batches which greatly helps
-ease of maintainence.
+ease of maintenance.
 
 ## no ai-generated contributions
 
@@ -79,20 +80,15 @@ long-term maintainability over cleverness or speed of delivery:
 - Keep changes focused and scoped to the issue at hand. So avoid drive-by
   refactors or unrelated changes in the same PR.
 - Use the `.editorconfig` file (located at the root of this project) in your
-  editor to maintain consistent coding styles. See [EditorConfig's
+  editor to maintain consistent coding styles. See the [EditorConfig
   website](https://editorconfig.org/) for a detailed explanation of how this
   works.
 - Write commit messages that explain _why_, not just _what_. Consider following
-  [scopedcommits](https://scopedcommits.com/)'s conventions
+  the [scopedcommits](https://scopedcommits.com/) conventions
   (<https://codeberg.org/koibtw/commits>).
 - Add or update tests and comments where they can help a future reader.
 
 ## interacting within the community
-
-If you disagree with feedback, or a maintainer's take on your issue, say so
-(respectfully and with reasoning). We'd much rather hash things out in the open
-than have people quietly walk away or ignore feedback. Good discussion, even
-when it ends in "no," is so important for open-source development.
 
 If it's your first time contributing to open source at all, the
 [first-contributions](https://github.com/firstcontributions/first-contributions)
@@ -100,6 +96,11 @@ repository is a great primer on GitHub mechanics. And if you're ever unsure
 whether something's worth an issue, just ask! - join our
 [Discord](https://robinwobin.dev/redirect/discord) and we're
 happy to help.
+
+If you disagree with feedback, or a maintainer's take on your issue, say so
+(respectfully and with reasoning). We'd much rather hash things out in the open
+than have people quietly walk away or ignore feedback. Good discussion, even
+when it ends in "no," is so important for open-source development.
 
 Thanks for reading, and thanks for caring about this project enough to
 contribute <3
