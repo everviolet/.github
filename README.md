@@ -1,5 +1,5 @@
 <h3 align="center">
-	<img src="https://codeberg.org/evergarden/.profile/raw/branch/main/assets/logo-circle.png" width="100" alt="Logo"/><br/>
+	<img src="https://codeberg.org/evergarden/.profile/raw/branch/main/assets/logo-circle-pixel.png" width="128" alt="Logo"/><br/>
 	Evergarden
 </h3>
 
